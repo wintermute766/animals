@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="species">Вид</string>
+    <string name="age">Возраст</string>
+    <string name="name">Имя</string>
+    <string name="add_animal">Добавить животное</string>
+</resources>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="currency_rub">Российский рубль</string>
+    <string name="currency_usd">Американский доллар</string>
+    <string name="currency_eur">Евро</string>
+    <string name="currency_gbp">Британский фунт стерлингов</string>
+    <string name="currency_aud">Австралийский доллар</string>
+    <string name="currency_azn">Азербайджанский манат</string>
+    <string name="currency_amd">Армянский драм</string>
+    <string name="currency_byn">Белорусский рубль</string>
+    <string name="currency_bgn">Болгарский лев</string>
+    <string name="currency_brl">Бразильский реал</string>
+    <string name="currency_huf">Венгерский форинт</string>
+    <string name="currency_hkd">Гонгконгский доллар</string>
+    <string name="currency_dkk">Датская крона</string>
+    <string name="currency_inr">Индийская рупия</string>
+    <string name="currency_kzt">Казахстанский тенге</string>
+    <string name="currency_cad">Канадский доллар</string>
+    <string name="currency_kgs">Киргизский сом</string>
+    <string name="currency_cny">Китайский юань</string>
+    <string name="currency_mdl">Молдавский лей</string>
+    <string name="currency_nok">Норвежская крона</string>
+    <string name="currency_pln">Польский злотый</string>
+    <string name="currency_ron">Румынский лей</string>
+    <string name="currency_xdr">Специальные права заимствования</string>
+    <string name="currency_sgd">Сингапурский доллар</string>
+    <string name="currency_tjs">Таджикский сомони</string>
+    <string name="currency_try">Турецкая лира</string>
+    <string name="currency_tmt">Туркменский манат</string>
+    <string name="currency_uzs">Узбекский сум</string>
+    <string name="currency_uah">Украинская гривна</string>
+    <string name="currency_czk">Чешская крона</string>
+    <string name="currency_sek">Шведская крона</string>
+    <string name="currency_chf">Швейцарский франк</string>
+    <string name="currency_zar">Южноафриканский рэнд</string>
+    <string name="currency_krw">Южнокорейский вон</string>
+    <string name="currency_jpy">Японская йена</string>
+</resources>

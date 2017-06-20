@@ -1,0 +1,52 @@
+apply plugin: 'com.android.application'
+
+android {
+    targetCompatibility = '1.7'
+    sourceCompatibility = '1.7'
+    compileSdkVersion Integer.parseInt(project.ANDROID_BUILD_SDK_VERSION)
+    buildToolsVersion project.ANDROID_BUILD_TOOLS_VERSION
+
+    defaultConfig {
+        applicationId "ru.sberbank.backgroundtaskssample"
+        targetSdkVersion project.TARGET_SDK_VERSION
+        minSdkVersion project.MIN_SDK_VERSION
+        versionCode 1
+        versionName "1.0.0"
+        vectorDrawables.useSupportLibrary = true
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+
+    packagingOptions {
+        exclude 'META-INF/LICENSE.txt'
+        exclude 'META-INF/NOTICE.txt'
+        exclude 'META-INF/LICENSE'
+        exclude 'META-INF/NOTICE'
+    }
+}
+
+dependencies {
+    compile fileTree(dir: 'libs', include: ['*.jar'])
+
+    // Android Support
+    compile "com.android.support:support-v4:${project.ANDROID_SUPPORT_LIBRARY_VERSION}"
+    compile "com.android.support:appcompat-v7:${project.ANDROID_SUPPORT_LIBRARY_VERSION}"
+    compile "com.android.support:recyclerview-v7:${project.ANDROID_SUPPORT_LIBRARY_VERSION}"
+    compile "com.android.support:cardview-v7:${project.ANDROID_SUPPORT_LIBRARY_VERSION}"
+    compile "com.android.support:design:${project.ANDROID_SUPPORT_LIBRARY_VERSION}"
+    compile "com.android.support:percent:${project.ANDROID_SUPPORT_LIBRARY_VERSION}"
+    compile "com.android.support:palette-v7:${project.ANDROID_SUPPORT_LIBRARY_VERSION}"
+
+    testCompile 'junit:junit:4.12'
+    androidTestCompile 'junit:junit:4.12'
+    androidTestCompile('com.android.support.test.espresso:espresso-core:2.2.2', {
+        exclude group: 'com.android.support', module: 'support-annotations'
+    })
+    androidTestCompile 'org.mockito:mockito-android:2.8.47'
+}

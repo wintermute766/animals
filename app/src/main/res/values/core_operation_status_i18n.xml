@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="core_status_parse_fail">Не удалось получить ответ с сервера</string>
+    <string name="core_status_network_unavailable">Отсутствует подключение к сети</string>
+    <string name="core_status_low_connection">Медленное соединение</string>
+    <string name="core_status_request_execution_fail">Ошибка при запросе к серверу</string>
+    <string name="core_status_service_unavailable">Сервис недоступен</string>
+</resources>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="currencies_rates">Курсы валют</string>
+    <string name="currencies_converter">Конвертер валют</string>
+    <string name="source_amount">Исходная сумма</string>
+    <string name="target_amount">Итоговая сумма</string>
+    <string name="convert">Конвертировать</string>
+    <string name="source_amount_error">Должна быть указана корректная исходная сумма</string>
+    <string name="currencies_must_be_different">Валюты должны быть разными</string>
+
+</resources>
